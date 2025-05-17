@@ -1,0 +1,18 @@
+header{
+    background-color: brown;
+    text-align: center;
+}
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+}
+.navegacao .botao {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #8B0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}

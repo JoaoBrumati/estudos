@@ -4,32 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modulo 1</title>
+    <link rel="stylesheet" href="modulo-1.css">
+    <title>Módulo 1</title>
 </head>
 
 <body>
     <header>
-        <h1>Bem vindo ao módulo 1</h1>
+    </br>
+        <h1>Bem-vindo ao Módulo 1</h1>
+        <div class="navegacao">
+            <a class="botao" href="../main/index.html">Voltar</a>
+            <a class="botao" href="../modulo-2/modulo-2.html">Avançar</a>
+        </div>
+
     </header>
+
     <main>
         <section>
-            <h2>Nesse módulo vai ser aprendido os seguintes itens:</h2>
+            <h2>Neste módulo, você vai aprender os seguintes itens:</h2>
             <ul>
-                <li>Paragrafo e Quebra</li>
+                <li>Parágrafo e Quebra de Linha</li>
                 <li>Imagem</li>
+                <li>Favicon</li>
+                <li>Listas OL e UL</li>
             </ul>
         </section>
+
         <section>
-            <h1>Paragrafo e Quebra</h1>
-            <p> &ltH1&gt - Seria o parágrafo. </br>
-                &ltH2,H3,H4&gt - São os sub-parágrafos, e a ordem que se dá seri o 2,3,4 e assim por diante. </br>
-                &ltP&gt - É utilizado para paragrafos. </br>
-                E tambem tem outros que podem complementar a construção do site como o &ltbr&gt para poder dar quebra de linha, &ltht&gt para colocar uma linha horizontal.
-            </p>
-            <h1>Imagem</h1>
+            <h2>Parágrafo e Quebra de Linha</h2>
             <p>
-                Ah nomenclatura utilizada é &ltimg&gt para o html ou no css, que pode ser utilizado da seguinte forma, background-imagem: url(), ambos funciona da mesma forma.
+                <code>&lt;h1&gt;</code>: Define o título principal da página. <br>
+                <code>&lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;</code>: São subtítulos, usados em ordem de importância. <br>
+                <code>&lt;p&gt;</code>: Utilizado para definir parágrafos. <br>
+                <code>&lt;br&gt;</code>: Quebra de linha. <br>
+                <code>&lt;hr&gt;</code>: Cria uma linha horizontal como separador de conteúdo.
             </p>
+        </section>
+
+        <section>
+            <h2>Imagem</h2>
+            <p>
+                A tag <code>&lt;img&gt;</code> é usada em HTML para inserir imagens. <br>
+                No CSS, você pode utilizar a propriedade <code>background-image: url("caminho-da-imagem");</code> para
+                definir uma imagem de fundo.
+            </p>
+        </section>
+
+        <section>
+            <h2>Favicon</h2>
+            <p>
+                O favicon é o ícone exibido na aba do navegador. Ele é adicionado na seção <code>&lt;head&gt;</code> da
+                página com a seguinte sintaxe:
+            </p>
+            <pre><code>&lt;link rel="shortcut icon" href="caminho/favicon.ico" type="image/x-icon"&gt;</code></pre>
+        </section>
+
+        <section>
+            <h2>Listas OL e UL</h2>
+            <p><strong>OL (Ordered List)</strong> - Lista ordenada:</p>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+
+            <p><strong>UL (Unordered List)</strong> - Lista não ordenada:</p>
+            <ul>
+                <li>Item A</li>
+                <li>Item B</li>
+                <li>Item C</li>
+            </ul>
         </section>
     </main>
 </body>
