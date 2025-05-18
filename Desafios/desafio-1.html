@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="desafio-1.css">
+</head>
+<body>
+    <header>
+        <h1>Fashion Store</h1>
+        <nav class="nav-header">
+            <a href="#">Home</a>
+            <a href="#">Produtos</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Seja bem-vindo à Fashion Store!</h2>
+
+        <section>
+            <h2>Produtos em Destaque</h2>
+            <div class="produtos-container">
+                <div class="produto">
+                    <img src="https://cdn.vnda.com.br/bolovo/2023/04/11/1_4_1_104_17_3_3_323_camisetapretabasicaII.jpg?v=1681186950" alt="Camiseta Básica 1">
+                    <h3>Camiseta Básica - 1</h3>
+                    <p>Conforto e estilo para o dia a dia.</p>
+                    <p><strong>R$ 20,00</strong></p>
+                </div>
+
+                <div class="produto">
+                    <img src="https://images.tcdn.com.br/img/img_prod/586374/camiseta_masculina_lisa_basica_adulto_malwee_azul_7220_1_7f3dcf3ed5605c3e3bef97b39dd30b2b.jpg" alt="Camiseta Básica 2">
+                    <h3>Camiseta Básica - 2</h3>
+                    <p>Disponível em várias cores e tamanhos.</p>
+                    <p><strong>R$ 32,00</strong></p>
+                </div>
+
+                <div class="produto">
+                    <h3>Camiseta Básica - 3</h3>
+                    <p>Ideal para o dia a dia.</p>
+                    <p><strong>R$ 25,00</strong></p>
+                </div>
+
+                <div class="produto">
+                    <h3>Camiseta Básica - 4</h3>
+                    <p>Material leve e durável.</p>
+                    <p><strong>R$ 28,00</strong></p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <fieldset>
+                <legend>Fale Conosco</legend>
+                <form action="">
+                    <p>
+                        <label for="inome">Nome Completo:</label>
+                        <input type="text" name="nome" id="inome">
+                    </p>
+                    <p>
+                        <label for="iemail">E-mail:</label>
+                        <input type="email" name="email" id="iemail">
+                    </p>
+                    <p>
+                        <label for="itelefone">Telefone:</label>
+                        <input type="tel" name="telefone" id="itelefone">
+                    </p>
+                    <p>
+                        <label for="imensagem">Mensagem:</label><br>
+                        <textarea name="mensagem" id="imensagem" rows="4" cols="40" placeholder="Digite sua mensagem..."></textarea>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="ipromocao" name="promocao">
+                        <label for="ipromocao">Aceito receber promoções por e-mail</label>
+                    </p>
+                    <input type="submit" value="Enviar">
+                </form>
+            </fieldset>
+        </section>
+    </main>
+
+    <footer>
+        <p>João Paulo &copy; 2025</p>
+    </footer>
+</body>
+</html>

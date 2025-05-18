@@ -1,0 +1,41 @@
+Desafio Fácil: Formulário de Cadastro Simples
+Objetivo: Criar um formulário básico de cadastro com os seguintes campos:
+
+Nome (campo de texto)
+
+E-mail (campo de e-mail)
+
+Senha (campo do tipo senha)
+
+Um botão para enviar
+
+✅ Exigências:
+Use a tag <form>
+
+Use <label> para identificar os campos
+
+Use <input> com os tipos corretos
+
+
+Desafio Médio: Formulário de Pesquisa de Satisfação
+Objetivo: Criar um formulário de feedback para uma lanchonete com os seguintes elementos:
+
+Nome completo
+
+Gênero (usando botões de rádio: Masculino, Feminino, Outro)
+
+Qual foi o seu pedido? (campo de texto)
+
+Como você avalia nosso atendimento? (usando <select> com 5 opções)
+
+Deseja receber promoções por e-mail? (caixa de seleção)
+
+Botão de enviar
+
+✅ Exigências:
+Use <fieldset> e <legend> para agrupar informações
+
+Use <input>, <label>, <select>, <option> e <textarea> se quiser adicionar comentários
+
+Tudo sem CSS ou JavaScript
+

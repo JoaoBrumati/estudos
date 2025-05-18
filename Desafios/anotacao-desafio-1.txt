@@ -1,0 +1,87 @@
+Plano de Desafios HTML & CSS — Loja de Roupa
+🔰 Nível 1 – Estrutura Básica e Cabeçalho
+Tema: Loja de roupa
+Instruções:
+Crie o arquivo HTML básico (<!DOCTYPE html>, <html>, <head>, <body>).
+
+No <body>, faça:
+
+Um <header> com o nome da loja (ex: “Fashion Store”). OK
+
+Um menu de navegação simples com 3 links: Home, Produtos, Contato. OK
+
+Um <main> com um parágrafo de boas-vindas à loja.OK
+
+Um <footer> com seu nome e o ano atual. OK
+
+🚀 Nível 2 – Conteúdo do Corpo com Produtos
+Instruções:
+No <main>, adicione:
+
+Uma seção chamada “Produtos em destaque” usando <section>.OK
+
+Dentro dela, crie uma lista (<ul>) com 4 produtos.OK
+
+Cada produto deve ter:
+
+Nome do produto (ex: Camiseta básica)
+
+Uma pequena descrição
+
+Preço
+
+Adicione uma imagem para pelo menos 2 produtos.
+
+Mantenha o cabeçalho e rodapé do Nível 1.
+
+🎨 Nível 3 – Formulário de Contato
+Instruções:
+Dentro do <main>, adicione uma seção “Fale conosco” com um formulário.
+
+O formulário deve ter:
+
+Campo para nome completo (<input type="text">)
+
+Campo para email (<input type="email">)
+
+Campo para telefone (<input type="tel">)
+
+Campo para mensagem (<textarea>)
+
+Checkbox para receber promoções por email
+
+Botão de envio
+
+Use <fieldset> e <legend> para agrupar os campos.
+
+Continue com todo o conteúdo dos níveis anteriores.
+
+💅 Nível 4 – Estilização CSS Básica
+Instruções:
+Crie o arquivo style.css e conecte ao HTML.
+
+Estilize:
+
+O <body> com uma cor de fundo agradável e uma fonte moderna.
+
+O <header> com fundo colorido, texto branco e menu horizontal.
+
+Os links do menu com efeito de hover.
+
+A lista de produtos para parecer cartões (com borda, sombra, espaçamento).
+
+O formulário com campos destacados e espaçamento.
+
+O <footer> com fundo escuro e texto centralizado.
+
+📱 Nível 5 – Layout Responsivo e Flexbox
+Instruções:
+Utilize flexbox para organizar os produtos em um grid com 2 colunas no desktop.
+
+No mobile (usando media queries), os produtos devem ficar em coluna única.
+
+Organize o formulário para ficar abaixo dos produtos no desktop e continue responsivo.
+
+O menu deve virar um menu vertical simples no mobile.
+
+Garanta que o rodapé fique sempre na base da página, com boa leitura.

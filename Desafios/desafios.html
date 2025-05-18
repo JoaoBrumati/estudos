@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Desafio</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <h1>Desafio nível Fácil</h1>
+        <form action="">
+            <p>Nome: <input type="text" name="nome" id="inome"></p>
+            <p>E-mail: <input type="email" name="email" id="iemail"></p>
+            <p>Senha: <input type="password" name="senha" id="isenha"></p>
+            <input type="submit" value="Enviar">
+        </form>
+        <hr>
+
+        <h1>Desafio nível Médio</h1>
+        <fieldset>
+            <legend>Formulário de Pesquisa de Satisfação</legend>
+            <form action="">
+                <p><label for="inome-completo">Nome Completo:</label>
+                    <input type="text" name="nome-completo" id="inome-completo">
+                </p>
+                <p>Gênero:
+                    <input type="radio" name="masculino" id="imasculino"><label for="imasculino">Masculino</label>
+                    <input type="radio" name="feminino" id="ifeminino"><label for="ifeminino">Feminino</label>
+                    <input type="radio" name="outro" id="ioutro"><label for="ioutro">Outro</label>
+                </p>
+                <p>
+                    <label for="ipedido">Qual foi o seu pedido?</label><br>
+                    <textarea name="pedido" id="ipedido" rows="3" cols="40"></textarea>
+                </p>
+                <p>
+                    <label for="iatendimento">Como você avalia nosso atendimento?</label><br>
+                    <select name="atendimento" id="iatendimento">
+                        <option value="excelente">Excelente</option>
+                        <option value="bom">Bom</option>
+                        <option value="regular">Regular</option>
+                        <option value="ruim">Ruim</option>
+                        <option value="péssimo">Péssimo</option>
+                    </select>
+                </p>
+            </form>
+        </fieldset>
+    </main>
+</body>
+
+</html>

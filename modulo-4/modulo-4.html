@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="modulo-4.css">
+    <link rel="stylesheet" href="modulo-4.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         </br>
@@ -21,21 +23,32 @@
             <ul>
                 <li>Iframe</li>
                 <li>Formulário</li>
+                <li>Get e Post</li>
             </ul>
         </section>
         <h1>Meu primeiro formulario</h1>
-            <form autocomplete="off" method="post">
-                <p><label for="inome" >Nome</label> 
-                    <input type="text" name="nome" id="inome" required></p>
-                <p> <label for="isobrenome">Sobrenome</label> 
-                    <input type="text" name="sobrenome" id="isobrenome"></p>
-                <p>email 
-                    <input type="email" name="email" id="iemail"></p>
-                    <p><label for="isenha">Senha</label>
-                        <input type="password" name="senha" id="isenha">
-                    </p>
-                <input type="submit" value="Enviar">
-            </form>
+        <form autocomplete="off" method="post">
+            <p><label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required>
+            </p>
+            <p> <label for="isobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="isobrenome">
+            </p>
+            <p>email
+                <input type="email" name="email" id="iemail">
+            </p>
+            <p><label for="isenha">Senha</label>
+                <input type="password" name="senha" id="isenha">
+            </p>
+            <fieldset>
+                <legend>Sexualidade</legend>
+                <input type="checkbox" name="masculino" id="imasculino"><label for="imasculino">Masculino</label>
+                <input type="checkbox" name="femino" id="ifeminino"><label for="ifeminino">Feminino</label>
+                <input type="checkbox" name="nao-definido" id="inao-definido"><label for="inao-definido">Não Definido</label>
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </form>
     </main>
 </body>
+
 </html>
